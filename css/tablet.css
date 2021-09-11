@@ -1,0 +1,18 @@
+/*APLICACIÓN DE MEDIA QUERIES*/
+/*Por buenas practicas los media queries tienen que ir separados por archivos de CSS para que no obliguemos al usuario a descargar todos los archivos o estilos de diferentes dispositivos. */
+
+.main-tables-container {
+    display: flex;
+    width: 930px;
+    margin: 0 auto;
+}
+.product-cards--container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 930px;
+    margin: 0 auto;
+}
+
+.plans-container-slider {
+    justify-content: center;
+}
